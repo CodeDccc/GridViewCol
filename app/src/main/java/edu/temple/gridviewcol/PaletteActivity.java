@@ -2,6 +2,7 @@ package edu.temple.gridviewcol;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -16,13 +17,15 @@ public class PaletteActivity extends AppCompatActivity {
     ArrayList<String> col;
     View bgCol;
     GridView gridView;
-
+    View textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final Intent newIntent = new Intent(this, CanvasActivity.class);
 
+        textView = findViewById(R.id.textView);
         gridView = findViewById(R.id.gridView);
         bgCol = findViewById(R.id.bgCol);
         col = new ArrayList<>();
@@ -33,7 +36,10 @@ public class PaletteActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (parent.getItemAtPosition(position).toString().equals("BLACK")) {
-                    bgCol.setBackgroundColor(Color.BLACK);
+                    int coll = Color.BLACK;
+                    newIntent.putExtra("color", coll);
+                    startActivity(newIntent);
+                    //bgCol.setBackgroundColor(Color.BLACK);
                 } else if (parent.getItemAtPosition(position).toString().equals("GREEN")) {
                     bgCol.setBackgroundColor(Color.GREEN);
                 } else if (parent.getItemAtPosition(position).toString().equals("GRAY")) {
