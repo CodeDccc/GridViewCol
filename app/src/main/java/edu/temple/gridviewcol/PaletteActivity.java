@@ -2,6 +2,8 @@ package edu.temple.gridviewcol;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -87,6 +89,46 @@ public class PaletteActivity extends AppCompatActivity {
                     newIntent.putExtra("color", coll);
                     newIntent.putExtra("text", col.get(position));
                     startActivity(newIntent);
+                }else if (parent.getItemAtPosition(position).toString().equals("WHITE")) {
+                    coll = Color.WHITE;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
+                }else if (parent.getItemAtPosition(position).toString().equals("ORANGE")) {
+                    coll =  getResources().getColor(R.color.ORANGE, null);
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
+                }else if (parent.getItemAtPosition(position).toString().equals("ROSY BROWN")) {
+                    coll =  getResources().getColor(R.color.RSYBROWN, null);
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
+                }else if (parent.getItemAtPosition(position).toString().equals("CHOCOLATE")) {
+                    coll =  getResources().getColor(R.color.CHOCOLATE, null);
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
+                }else if (parent.getItemAtPosition(position).toString().equals("DEEP PINK")) {
+                    coll =  getResources().getColor(R.color.DPINK, null);
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
+                }else if (parent.getItemAtPosition(position).toString().equals("PURPLE")) {
+                    coll =  getResources().getColor(R.color.PURPLE, null);
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
+                }else if (parent.getItemAtPosition(position).toString().equals("OLIVE")) {
+                    coll = getResources().getColor(R.color.OLIVE, null);
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
+                }else if (parent.getItemAtPosition(position).toString().equals("CADET BLUE")) {
+                    coll =  getResources().getColor(R.color.CBLUE, null);
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 }
             }
         });
@@ -96,12 +138,20 @@ public class PaletteActivity extends AppCompatActivity {
         col.add("BLACK");
         col.add("BLUE");
         col.add("GREEN");
-        col.add("DARK GRAY");
         col.add("YELLOW");
         col.add("CYAN");
         col.add("GRAY");
+        col.add("OLIVE");
         col.add("MAGENTA");
-        col.add("LIGHT GRAY");
+        col.add("PURPLE");
         col.add("RED");
+        col.add("WHITE");
+        col.add("ORANGE");
+        col.add("CHOCOLATE");
+        col.add("DEEP PINK");
+        col.add("CADET BLUE");
+        col.add("LIGHT GRAY");
+        col.add("ROSY BROWN");
+        col.add("DARK GRAY");
     }
 }
