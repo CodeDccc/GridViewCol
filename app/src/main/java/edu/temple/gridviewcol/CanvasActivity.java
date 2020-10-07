@@ -10,6 +10,7 @@ public class CanvasActivity extends AppCompatActivity {
     TextView textView;
     View bgCol;
     int coll;
+    String string;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,11 @@ public class CanvasActivity extends AppCompatActivity {
         textView = findViewById(R.id.textView);
         bgCol = findViewById(R.id.bgCol);
 
+        string = getIntent().getExtras().getString("text");
+        textView.setText(string);
+        textView.setTextSize(30);
+       // textView.setWidth(60);
+        //textView.setPadding(15, 15, 15, 15);
         coll = getIntent().getExtras().getInt("color");
         bgCol.setBackgroundColor(coll);
     }

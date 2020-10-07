@@ -18,6 +18,8 @@ public class PaletteActivity extends AppCompatActivity {
     View bgCol;
     GridView gridView;
     View textView;
+    int coll;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,28 +38,55 @@ public class PaletteActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (parent.getItemAtPosition(position).toString().equals("BLACK")) {
-                    int coll = Color.BLACK;
+                    coll = Color.BLACK;
                     newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
                     startActivity(newIntent);
-                    //bgCol.setBackgroundColor(Color.BLACK);
                 } else if (parent.getItemAtPosition(position).toString().equals("GREEN")) {
-                    bgCol.setBackgroundColor(Color.GREEN);
+                    coll = Color.GREEN;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 } else if (parent.getItemAtPosition(position).toString().equals("GRAY")) {
-                    bgCol.setBackgroundColor(Color.GRAY);
+                    coll = Color.GRAY;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 } else if (parent.getItemAtPosition(position).toString().equals("DARK GRAY")) {
-                    bgCol.setBackgroundColor(Color.DKGRAY);
+                    coll = Color.DKGRAY;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 } else if (parent.getItemAtPosition(position).toString().equals("CYAN")) {
-                    bgCol.setBackgroundColor(Color.CYAN);
+                    coll = Color.CYAN;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 } else if (parent.getItemAtPosition(position).toString().equals("RED")) {
-                    bgCol.setBackgroundColor(Color.RED);
+                    coll = Color.RED;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 } else if (parent.getItemAtPosition(position).toString().equals("MAGENTA")) {
-                    bgCol.setBackgroundColor(Color.MAGENTA);
+                    coll = Color.MAGENTA;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 } else if (parent.getItemAtPosition(position).toString().equals("LIGHT GRAY")) {
-                    bgCol.setBackgroundColor(Color.LTGRAY);
+                    coll = Color.LTGRAY;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 } else if (parent.getItemAtPosition(position).toString().equals("BLUE")) {
-                    bgCol.setBackgroundColor(Color.BLUE);
+                    coll = Color.BLUE;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 } else if (parent.getItemAtPosition(position).toString().equals("YELLOW")) {
-                    bgCol.setBackgroundColor(Color.YELLOW);
+                    coll = Color.YELLOW;
+                    newIntent.putExtra("color", coll);
+                    newIntent.putExtra("text", col.get(position));
+                    startActivity(newIntent);
                 }
             }
         });
