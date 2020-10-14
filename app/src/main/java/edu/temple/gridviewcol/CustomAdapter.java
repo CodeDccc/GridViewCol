@@ -1,23 +1,17 @@
 package edu.temple.gridviewcol;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
-
 public class CustomAdapter extends BaseAdapter {
 
     int colors[];
     Context context;
     String[] gridLabels;
-  //  ArrayList<String> col;
-
     public CustomAdapter(Context context,  String[] gridLabels){
         this.context = context;
         this.gridLabels = gridLabels;
@@ -64,13 +58,12 @@ public class CustomAdapter extends BaseAdapter {
         textView.setTextSize(20);
         textView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         textView.setPadding(10,10,10,10);
-        if(textView.getText().equals("BLACK")){
+        if(textView.getText().equals("BLACK")||textView.getText().equals("NOIR")){
             textView.setTextColor(Color.WHITE);
         }
         if(textView.getText().equals("MAGENTA")){
             textView.setPadding(0,10,0,10);
         }
-
         return textView;
     }
 
