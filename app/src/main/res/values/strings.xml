@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name" >Color Changing App</string>
     <string name="intro_name">Click a color below to launch Canvas</string>
-
+    <string name="canvas_name">Canvas Activity</string>
+    <string name="palette_name">Palette Activity</string>
 
     <string-array name="color_array">
         <item>BLACK</item>

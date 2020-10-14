@@ -3,7 +3,6 @@ package edu.temple.gridviewcol;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
@@ -13,8 +12,6 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 
-import java.util.ArrayList;
-import java.util.Objects;
 
 public class PaletteActivity extends AppCompatActivity {
 

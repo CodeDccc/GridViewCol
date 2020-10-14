@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name" >application de changement de couleur</string>
     <string name="intro_name">Cliquez sur une couleur ci-dessous pour lancer Canvas</string>
+    <string name="canvas_name">activité de toile</string>
+    <string name="palette_name">activité de palette</string>
 
     <string-array name="color_array">
         <item>NOIR</item>
