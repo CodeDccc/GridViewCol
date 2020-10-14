@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Color Changing App</string>
+    <string name="app_name" >Color Changing App</string>
+    <string name="intro_name">Click a color below to launch Canvas</string>
+
+
+    <string-array name="color_array">
+        <item>BLACK</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>YELLOW</item>
+        <item>CYAN</item>
+        <item>GRAY</item>
+        <item>OLIVE</item>
+        <item>MAGENTA</item>
+        <item>PURPLE</item>
+        <item>RED</item>
+        <item>WHITE</item>
+        <item>ORANGE</item>
+        <item>CHOCOLATE</item>
+        <item>DEEP PINK</item>
+        <item>CADET BLUE</item>
+        <item>LIGHT GRAY</item>
+        <item>ROSY BROWN</item>
+        <item>DARK GRAY</item>
+    </string-array>
 </resources>

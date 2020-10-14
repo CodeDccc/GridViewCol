@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >application de changement de couleur</string>
+    <string name="intro_name">Cliquez sur une couleur ci-dessous pour lancer Canvas</string>
+
+    <string-array name="color_array">
+        <item>NOIR</item>
+        <item>BLEU</item>
+        <item>VERT</item>
+        <item>JAUNE</item>
+        <item>CYAN</item>
+        <item>GRIS</item>
+        <item>OLIVE</item>
+        <item>MAGENTA</item>
+        <item>VIOLETTE</item>
+        <item>ROUGE</item>
+        <item>BLANC</item>
+        <item>ORANGE</item>
+        <item>CHOCOLAT</item>
+        <item>ROSE PROFOND</item>
+        <item>BLEU CADET</item>
+        <item>GRIS CLAIR</item>
+        <item>BRUN ROSY</item>
+        <item>GRIS FONCE</item>
+    </string-array>
+
+</resources>

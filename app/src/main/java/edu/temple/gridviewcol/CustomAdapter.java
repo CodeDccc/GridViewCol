@@ -1,6 +1,7 @@
 package edu.temple.gridviewcol;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,15 +10,17 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+
 public class CustomAdapter extends BaseAdapter {
 
     int colors[];
     Context context;
-    ArrayList<String> col;
+    String[] gridLabels;
+  //  ArrayList<String> col;
 
-    public CustomAdapter(Context context, ArrayList<String> col){
+    public CustomAdapter(Context context,  String[] gridLabels){
         this.context = context;
-        this.col = col;
+        this.gridLabels = gridLabels;
         colors = new int[18];
         colors[0] = Color.BLACK;
         colors[1] = Color.BLUE;
@@ -40,12 +43,12 @@ public class CustomAdapter extends BaseAdapter {
     }
     @Override
     public int getCount() {
-        return col.size();
+        return gridLabels.length;
     }
 
     @Override
     public Object getItem(int position) {
-        return col.get(position);
+        return gridLabels[position];
     }
 
     @Override
