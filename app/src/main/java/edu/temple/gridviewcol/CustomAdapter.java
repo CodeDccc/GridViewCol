@@ -9,13 +9,14 @@ import android.widget.TextView;
 
 public class CustomAdapter extends BaseAdapter {
 
-    int colors[];
+    //int colors[];
     Context context;
     String[] gridLabels;
     public CustomAdapter(Context context,  String[] gridLabels){
         this.context = context;
         this.gridLabels = gridLabels;
-        colors = new int[18];
+        //this.colors = colors;
+       /* colors = new int[18];
         colors[0] = Color.BLACK;
         colors[1] = Color.BLUE;
         colors[2] = Color.GREEN;
@@ -33,7 +34,7 @@ public class CustomAdapter extends BaseAdapter {
         colors[14] = context.getResources().getColor(R.color.CBLUE, null);
         colors[15] = Color.LTGRAY;
         colors[16] = context.getResources().getColor(R.color.RSYBROWN, null);
-        colors[17] = Color.DKGRAY;
+        colors[17] = Color.DKGRAY;*/
     }
     @Override
     public int getCount() {
@@ -54,7 +55,7 @@ public class CustomAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent){
         TextView textView = new TextView(context);
         textView.setText(getItem(position).toString());
-        textView.setBackgroundColor(colors[position % colors.length]);
+        textView.setBackgroundColor(Color.parseColor(gridLabels[position % getCount()]));
         textView.setTextSize(20);
         textView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         textView.setPadding(10,10,10,10);
@@ -73,4 +74,5 @@ public class CustomAdapter extends BaseAdapter {
     }
 }
 
-
+/*myLayout.setBackgroudColor(Color.parseColor(chosenColor))//
+// Color.parseColor(String) will only work for very simply colors// see */

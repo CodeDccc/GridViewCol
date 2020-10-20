@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" >Color Changing App</string>
+    <string name="app_name">Color Changing App</string>
     <string name="intro_name">Click a color below to launch Canvas</string>
     <string name="canvas_name">Canvas Activity</string>
     <string name="palette_name">Palette Activity</string>
@@ -16,12 +16,8 @@
         <item>PURPLE</item>
         <item>RED</item>
         <item>WHITE</item>
-        <item>ORANGE</item>
-        <item>CHOCOLATE</item>
-        <item>DEEP PINK</item>
-        <item>CADET BLUE</item>
-        <item>LIGHT GRAY</item>
-        <item>ROSY BROWN</item>
-        <item>DARK GRAY</item>
+        <item>LIME</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+  <!--  <string name="hello_blank_fragment">Hello blank fragment</string>-->
 </resources>
