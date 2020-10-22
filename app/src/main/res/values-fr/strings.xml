@@ -6,18 +6,40 @@
     <string name="palette_name">activité de palette</string>
 
     <string-array name="color_array">
-          <item>NOIR</item>
-          <item>BLEU</item>
-          <item>VERT</item>
-          <item>JAUNE</item>
-          <item>CYAN</item>
-          <item>GRIS</item>
-          <item>OLIVE</item>
-          <item>MAGENTA</item>
-          <item>VIOLET</item>
-          <item>ROUGE</item>
-          <item>BLANC</item>-->
-          <item>CITRON VERT</item>
+        <item>NOIR</item>
+        <item>BLEU</item>
+        <item>VERT</item>
+        <item>JAUNE</item>
+        <item>CYAN</item>
+        <item>GRIS</item>
+        <item>OLIVE</item>
+        <item>MAGENTA</item>
+        <item>VIOLET</item>
+        <item>ROUGE</item>
+        <item>BLANC</item>
+        <item>ORANGE</item>
+        <item>CHOCOLAT</item>
+        <item>ROSE PROFOND</item>
+        <item>BLEU CADET</item>
+        <item>GRIS CLAIR</item>
+        <item>BRUN ROSY</item>
+        <item>GRIS FONCE</item>
+
     </string-array>
 
 </resources>
+
+
+
+<!--<item>NOIR</item>
+<item>BLEU</item>
+<item>VERT</item>
+<item>JAUNE</item>
+<item>CYAN</item>
+<item>GRIS</item>
+<item>OLIVE</item>
+<item>MAGENTA</item>
+<item>VIOLET</item>
+<item>ROUGE</item>
+<item>BLANC</item>
+<item>CITRON VERT</item>-->

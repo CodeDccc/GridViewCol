@@ -17,6 +17,15 @@
         <item>#800080</item>
         <item>#FF0000</item>
         <item>#ffffff</item>
-        <item>#BFFF00</item>
+        <item>#FFA500</item>
+        <item>#7b3f00</item>
+        <item>#FF1493</item>
+        <item>#5f9ea0</item>
+        <item>#D3D3D3</item>
+        <item>#bc8f8f</item>
+        <item>#A9A9A9</item>
+
     </string-array>
 </resources>
+
+<!--<item>#BFFF00</item>-->

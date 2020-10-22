@@ -6,19 +6,42 @@
     <string name="palette_name">Palette Activity</string>
 
     <string-array name="color_array">
-         <item>BLACK</item>
-         <item>BLUE</item>
-         <item>GREEN</item>
-         <item>YELLOW</item>
-         <item>CYAN</item>
-         <item>GRAY</item>
-         <item>OLIVE</item>
-         <item>MAGENTA</item>
-         <item>PURPLE</item>
-         <item>RED</item>
-         <item>WHITE</item>
-         <item>LIME</item>
+        <item>BLACK</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>YELLOW</item>
+        <item>CYAN</item>
+        <item>GRAY</item>
+        <item>OLIVE</item>
+        <item>MAGENTA</item>
+        <item>PURPLE</item>
+        <item>RED</item>
+        <item>WHITE</item>
+        <item>ORANGE</item>
+        <item>CHOCOLATE</item>
+        <item>DEEP PINK</item>
+        <item>CADET BLUE</item>
+        <item>LIGHT GRAY</item>
+        <item>ROSY BROWN</item>
+        <item>DARK GRAY</item>
     </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
   <!--  <string name="hello_blank_fragment">Hello blank fragment</string>-->
 </resources>
+
+
+<!--<string-array name="color_array">
+<item>BLACK</item>
+<item>BLUE</item>
+<item>GREEN</item>
+<item>YELLOW</item>
+<item>CYAN</item>
+<item>GRAY</item>
+<item>OLIVE</item>
+<item>MAGENTA</item>
+<item>PURPLE</item>
+<item>RED</item>
+<item>WHITE</item>
+<item>LIME</item>
+</string-array>-->
