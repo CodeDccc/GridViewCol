@@ -58,6 +58,7 @@ public class CanvasFragment extends Fragment {
         return frame;
     }
     public void show(String value){
+      //  char[] ch = value.toCharArray();
         textView.setText(value);
         textView.setTextSize(20);
         textView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
@@ -68,6 +69,10 @@ public class CanvasFragment extends Fragment {
         if(textView.getText().equals("WHITE")||textView.getText().equals("BLANC")){
             textView.setTextColor(Color.BLACK);
         }
-        bgCol.setBackgroundColor(Color.parseColor(value));
+        //bgCol.setBackgroundColor(Integer.parseInt(value));
+    }
+    public void showBg(int value){
+        bgCol.setBackgroundColor(value);
+       // textView.setText(value);
     }
 }

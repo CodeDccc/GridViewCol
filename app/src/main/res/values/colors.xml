@@ -4,32 +4,19 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="ORANGE">#FFA500</color>
-    <color name="RSYBROWN">#BC8F8F</color>
-    <color name="CHOCOLATE">#D2691E</color>
-    <color name="DPINK">#FF1493</color>
-    <color name="PURPLE">#800080</color>
-    <color name="OLIVE">#808000</color>
-    <color name="CBLUE">#5F9EA0</color>
 
     <string-array name="color">
-        <item>Color.BLACK</item>
-        <item>Color.BLUE</item>
-        <item>Color.GREEN</item>
-        <item>Color.YELLOW</item>
-        <item>Color.CYAN</item>
-        <item>Color.GRAY</item>
-        <item>context.getResources().getColor(R.color.OLIVE, null)</item>
-        <item>Color.MAGENTA</item>
-        <item>context.getResources().getColor(R.color.PURPLE, null)</item>
-        <item>Color.RED</item>
-        <item>Color.WHITE</item>
-        <item>context.getResources().getColor(R.color.ORANGE, null)</item>
-        <item>context.getResources().getColor(R.color.CHOCOLATE, null)</item>
-        <item>context.getResources().getColor(R.color.DPINK, null)</item>
-        <item>context.getResources().getColor(R.color.CBLUE, null)</item>
-        <item>Color.LTGRAY</item>
-        <item>context.getResources().getColor(R.color.RSYBROWN, null)</item>
-        <item>Color.DKGRAY</item>
+        <item>#000000</item>
+        <item>#0000FF</item>
+        <item>#00FF00</item>
+        <item>#FFFF00</item>
+        <item>#00FFFF</item>
+        <item>#808080</item>
+        <item>#808000</item>
+        <item>#FF00FF</item>
+        <item>#800080</item>
+        <item>#FF0000</item>
+        <item>#ffffff</item>
+        <item>#BFFF00</item>
     </string-array>
 </resources>
